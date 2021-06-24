@@ -1,0 +1,78 @@
+			* {
+				box-sizing: border-box;
+			}
+
+			.row {
+				width: 100%;
+			}
+
+			section {
+				position: relative;
+			}
+
+			h2 {
+				border: 1px solid black;
+				position: absolute;
+				width: 30%;
+				height: 10%;
+				top: 0px;
+				right: 0px;
+				background: black;
+				color: white;
+				text-align: center;
+				margin: 0px;
+
+
+			}
+
+			.content {
+				margin-top: 15%;
+				padding: 5px;
+				font-family: "courier arial helvetica";
+			}
+
+			/***desktop***/
+			@media (min-width: 992px) {
+			.col-lg-4 {
+					width: 33.33%;
+					float: left;
+					border: 1px solid black;
+					background: darkgray;
+					color: yellow;
+
+						}
+	
+			}
+
+			/***tablet***/
+			@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-6 {
+    				width: 50%;
+    				float: left;
+					border: 1px solid black;
+					background: darkgray;
+					color: yellow;
+    			}
+    			
+    		.col-md-12 {
+    				width: 100%;
+    				float: left;
+					border: 1px solid black;
+					background: darkgray;
+					color: yellow;
+    		}
+    				
+  						
+			
+			}
+		/***mobile***/
+		@media (max-width: 767px) {
+			.col-sm-12 {
+					width: 100%;
+    				float: left;
+					border: 1px solid black;
+					background: darkgray;
+					color: yellow;
+				}
+
+			}
