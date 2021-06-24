@@ -17,10 +17,21 @@
 				height: 10%;
 				top: 0px;
 				right: 0px;
-				background: black;
 				color: white;
 				text-align: center;
 				margin: 0px;
+			}
+
+			#h21 {
+				background: red;
+			}
+
+			#h22 {
+				background: green;
+			}
+
+			#h23 {
+				background: darkblue;
 			}
 
 			.content {
