@@ -1,0 +1,46 @@
+/***desktop***/
+@media (min-width: 992px) {
+	#p1 {
+		width: 33.33%;
+		background: yellow;
+	}
+	#p2 {
+		width: 33.33%;
+		background: red;
+	}
+	#p3 {
+		width: 33.33%;
+		background: blue;
+	}
+}
+
+/***tablet***/
+@media (min-width: 768px) and (max-width: 991px) {
+	#p1 {
+		width: 33.33%;
+		background: yellow;
+	}
+	#p2 {
+		width: 33.33%;
+		background: red;
+	}
+	#p3 {
+		width: 33.33%;
+		background: blue;
+	}
+}
+/***mobile***/
+@media (min-width: 767px) {
+	#p1 {
+		width: 33.33%;
+		background: yellow;
+	}
+	#p2 {
+		width: 33.33%;
+		background: red;
+	}
+	#p3 {
+		width: 33.33%;
+		background: blue;
+	}
+}
